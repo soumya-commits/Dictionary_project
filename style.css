@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    background: #92c4cf;
+  }
+  #header{
+    height: 100px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:80px;
+    font-size: 55px;
+    font-weight: bold;
+    font-style: italic;
+    font-weight: 700; 
+    letter-spacing: 5px; 
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  #container{
+    position: absolute;
+    top: 50%;
+   left: 50%;
+  transform: translate(-50%, -50%);
+  }
+  
+  #main-box {
+   width: 500px;
+    height: 400px; 
+    align-items: center;
+    background: #ffffff;
+    border-radius: 10%;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 30px;
+    opacity: 1;
+    box-shadow: 0 3px #ececec;
+  }
+
+  #search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #search input {
+    border: none;
+    outline: none;
+    margin-right: 16px;
+    height: 40px;
+    padding: 5px 25px;
+    flex: 1;
+    border-left: 3px solid #6fb0bf;
+    border-bottom: 3px solid #6fb0bf;
+    border-radius: 10px;
+    font-size: 17px;
+    opacity: 1;
+    font-style: italic;
+  }
+  #search button {
+    padding-top: 3px;
+    padding-left: 4px;
+    background-color: #6fb0bf;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    height: 50px;
+    width: 90px;
+    border: 0px;
+    outline: 0px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  #search button:hover {
+    background-color: #fff;
+    color: #6fb0bf;
+    border: 2px solid #6fb0bf;
+  }
+  #search button:active {
+    background-color: #c5d5eb;
+    box-shadow: 0 3px #ececec;
+    transform: translateY(4px);
+  }
+  #definition{
+    padding-left:30px;
+  }
+  #in-word h2 {
+    padding-top: 30px;
+    justify-content: left;
+    align-items: left;
+    font-size: 30px;
+  }
+  #in-word{
+    padding-top:20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+  }
+  #in-word button{
+    border: none;
+    outline: none;
+    padding-top: 25px;
+    padding-right: 25px;
+    background-color: #fff;
+    color:#6fb0bf;
+    font-size:20px;
+    cursor: pointer;
+  }
+  #in-word button:active{
+    color:#92c4cf;
+  }
+  #definition p {
+    color: #6b6969;
+  }
+  #definition #details {
+    display: flex;
+    padding-top: 5px;
+    gap: 10px;
+  }
+  #meaning{
+    padding-top: 20px;
+  }
+  #sentence{
+    padding-left:20px;
+    margin-top:20px;
+    border-left: 3px solid #6fb0bf;
+    font-style: italic;
+  }
+  #error{
+    margin-top:30px;
+    text-align: center;
+  }
